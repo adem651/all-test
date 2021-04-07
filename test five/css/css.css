@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	display: flex;
+	justify-content: center;
+	background-color: #000;
+	align-items: center;
+	min-height: 100vh;
+	font-size: 8em;
+}
+div i{
+	position: relative;
+	color: #fff;
+	text-shadow: 0 0 50px #f0f,
+				 0 0 100px #f0f,
+				 0 0 150px #f0f,
+				 0 0 200px #f0f,
+				 0 0 250px #f0f;
+	animation: animate 5s linear infinite;
+}
+@keyframes animate{
+	0%{
+		filter: hue-rotate(0deg);
+	}
+	100%{
+		filter: hue-rotate(360deg);
+	}
+}

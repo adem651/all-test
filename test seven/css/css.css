@@ -1,0 +1,261 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+button{
+	height: 10vh;
+	width: 15vh;
+	border-radius: 0;
+	border: 1px solid #000;
+	font-size: 20px;
+	position: relative;
+	z-index: 1;
+	transition: all .2s;
+	overflow: hidden;
+}
+button:nth-child(1)::after{
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0%;
+	height: 100%;
+	width: 0vh;
+	background-color: #000;
+	transition: all .5s;
+	z-index: -1
+}
+
+
+/* 1 */
+button:nth-child(1)::before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0%;
+	height: 100%;
+	width: 0vh;
+	background-color: #000;
+	transition: all .5s;
+	z-index: -1
+}
+button:nth-child(1):hover:before{
+	width: 50%;
+}
+button:nth-child(1):hover:after{
+	width: 50%;
+}
+button:hover{
+	color: #fff
+}
+
+/* 2 */
+button:nth-child(2)::before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0%;
+	height: 100%;
+	width: 0vh;
+	background-color: #000;
+	transition: all .5s;
+	z-index: -1
+}
+button:nth-child(2):hover:before{
+	width: 100%;
+}
+
+/* 3 */
+button:nth-child(3)::after{
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0%;
+	height: 100%;
+	width: 0vh;
+	background-color: #000;
+	transition: all .5s;
+	z-index: -1
+}
+button:nth-child(3):hover:after{
+	width: 100%;
+}
+
+/* 4 */
+button:nth-child(4)::after{
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0%;
+	height: 0%;
+	width: 100%;
+	background-color: #000;
+	transition: all .5s;
+	z-index: -1
+}
+button:nth-child(4):hover:after{
+	height: 100%;
+}
+
+/* 5 */
+button:nth-child(5)::after{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	right: 0%;
+	height: 0%;
+	width: 100%;
+	background-color: #000;
+	transition: all .5s;
+	z-index: -1
+}
+button:nth-child(5):hover:after{
+	height: 100%;
+}
+
+/* 6 */
+button:nth-child(6)::before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0%;
+	height: 0%;
+	width: 100%;
+	background-color: #000;
+	transition: all .5s;
+	z-index: -1
+}
+button:nth-child(6)::after{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	right: 0%;
+	height: 0%;
+	width: 100%;
+	background-color: #000;
+	transition: all .5s;
+	z-index: -1
+}
+button:nth-child(6):hover:before{
+	height: 50%;
+}
+button:nth-child(6):hover:after{
+	height: 50%;
+}
+
+/* 7 */
+button:nth-child(7)::before{
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 0%;
+	height: 0%;
+	width: 100%;
+	background-color: #000;
+	transition: all .5s;
+	z-index: -1
+}
+button:nth-child(7)::after{
+	content: "";
+	position: absolute;
+	bottom: 50%;
+	right: 0%;
+	height: 0%;
+	width: 100%;
+	background-color: #000;
+	transition: all .5s;
+	z-index: -1
+}
+button:nth-child(7):hover:before{
+	height: 50%;
+}
+button:nth-child(7):hover:after{
+	height: 50%;
+}
+/* 7 */
+button:nth-child(8)::after{
+	content: "";
+	position: absolute;
+	top: 0%;
+	right: 0%;
+	height: 8%;
+	width: 0%;
+	background-color: #000;
+	transition: all .5s;
+	z-index: -1
+}
+button:nth-child(8):hover:after{
+	width: 100%;
+}
+
+/* 8 */
+
+button:nth-child(9)::after{
+	content: "";
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	height: 8%;
+	width: 0%;
+	background-color: #000;
+	transition: all .5s;
+	z-index: -1
+}
+button:nth-child(9):hover:after{
+	width: 100%;
+}
+
+
+/* 9 */
+button:nth-child(10)::before{
+	content: "";
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	height: 8%;
+	width: 0%;
+	background-color: #000;
+	transition: all .5s;
+	z-index: -1
+}
+button:nth-child(10)::after{
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0%;
+	height: 8%;
+	width: 0%;
+	background-color: #000;
+	transition: all .5s;
+	z-index: -1
+}
+button:nth-child(10):hover:before{
+	width: 50%;
+}
+button:nth-child(10):hover:after{
+	width: 50%;
+}
+
+/* 10 */
+button:nth-child(11)::after{
+	content: "";
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	height: 0%;
+	width: 100%;
+	background-color: #000;
+	transition: all .5s;
+	z-index: -1
+}
+button:nth-child(11):hover:after{
+	height: 8%
+}
+
+/* 11*/

@@ -1,0 +1,225 @@
+body{
+	margin: 0;
+	padding: 0;
+	height: auto;
+	width: 100%;
+	overflow: hidden;
+}
+.cercle{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	background-color: #000;
+	position: absolute;
+	animation-name: cercle;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+  	animation-direction: normal;
+  	animation-timing-function: linear;
+}
+
+/*      animate      */
+@keyframes cercle{
+0%,100% {
+		top:0px;
+		left: 0%
+	}
+25%{
+	left: 42%
+	top: 35%;
+	}
+50%{
+	left: 85.5%;
+	top: 71%
+	}
+100%{
+	top:0px;
+	left: 0%
+	}
+}
+
+.cercle-two{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	background-color: #000;
+	position: absolute;
+	animation-name: move-two;
+	animation-duration: 4s;
+	right: 0;
+	animation-iteration-count: infinite;
+  	animation-direction: normal;
+  	animation-timing-function: linear;
+}
+@keyframes move-two{
+0%,100% {
+		top:0px;
+		right: 0px;
+	}
+25%{
+	right: 42%;
+	top: 35%
+	}
+50%{
+	right: 85.5%;
+	top: 71%
+	}
+100%{
+	top:0px;
+	right: 0px;
+	}
+}
+.cercle-three{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	background-color: #000;
+	position: absolute;
+	animation-name: move-three;
+	animation-duration: 5s;
+	right: 0;
+	animation-iteration-count: infinite;
+  	animation-direction: normal;
+  	animation-timing-function: linear;
+}
+@keyframes move-three{
+0%,100% {
+		bottom: 0px;
+		right: 0px;
+	}
+25%{
+	right: 42%;
+	bottom: 35%;
+	}
+50%{
+	right: 85.5%;
+	bottom: 71%
+	}
+100%{
+	bottom:0px;
+	right: 0px;
+	}
+}
+.cercle-four{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	background-color: #000;
+	position: absolute;
+	animation-name: move-four;
+	animation-duration: 3s;
+	right: 0;
+	animation-iteration-count: infinite;
+  	animation-direction: normal;
+  	animation-timing-function: linear;
+}
+@keyframes move-four{
+0%,100% {
+		bottom:0px;
+		left: 0%
+	}
+25%{
+		left: 85.5%
+	}
+50%{
+		bottom: 71%
+	}
+100%{
+		bottom:0px;
+		left: 0%
+	}
+}
+.cercle-five{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	background-color: #000;
+	position: absolute;
+	animation-name: move-five;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+  	animation-direction: normal;
+  	animation-timing-function: linear;
+}
+@keyframes move-five{
+0% {
+		top:0%;
+		left: 15%
+	}
+25%{
+		left: 15%;
+		top: 30%;
+	}
+50%{
+		left: 15%;
+		top: 70%;
+	}
+75%{
+	left: 0%;
+	top: 35%;
+}
+100%{
+		top:0px;
+		left: 15%
+	}
+}
+.cercle-six{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	background-color: #000;
+	position: absolute;
+	animation-name: move-six;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+  	animation-direction: alternate-reverse;
+  	animation-timing-function: linear;	
+}
+@keyframes move-six{
+0% {
+		top:0%;
+		left: 60%
+	}
+25%{
+		left: 60%;
+		top: 30%;
+	}
+50%{
+		left: 60%;
+		top: 70%;
+	}
+100%{
+		top:0px;
+		left: 60%
+	}
+}
+.cercle-seven{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	background-color: #000;
+	position: absolute;
+	animation-name: move-seven;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+  	animation-direction: normal;
+  	animation-timing-function: linear;	
+}
+@keyframes move-seven{
+0% {
+		top:0%;
+		left: 40%
+	}
+25%{
+		left: 40%;
+		top: 70%;
+	}
+50%{
+		left: 85%;
+		top: 35%;
+	}
+100%{
+		top:0px;
+		left: 40%
+	}
+}
