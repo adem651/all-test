@@ -20,9 +20,6 @@ span{
 	background: #000;
 	animation: move 3s linear infinite;
 }
-span:nth-child(1){
-	animation: move 3s linear infinite;
-}
 span:nth-child(2){
 	animation-delay: .3s
 }
@@ -38,11 +35,14 @@ span:nth-child(5){
 @keyframes move{
 	0%{
 		transform: scaleY(.5);
+		background:#fff
 	}
 	50%{
 		transform: scaleY(1.5);
+		background: #141414
 	}
 	100%{
 		transform: scaleY(.5);
+		background: #fff
 	}
 }
