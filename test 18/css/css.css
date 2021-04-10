@@ -1,0 +1,135 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: #9e0cb9;
+}
+div{
+	position: relative;
+	width: 400px;
+	height: 400px;
+	transform-style: preserve-3d;
+}
+span{
+	position: absolute;
+	border: 5px solid #fff;
+	display: block;
+	box-shadow: 0 5px 0 #eee,
+				inset 0 5px 0 #eee;
+	transform: rotateX(60deg);
+	perspective: 500px;
+	border-radius: 50%;
+	animation: animate 2s ease-in-out infinite;
+}
+@keyframes animate{
+	0%,100%{
+		transform: translateY(-100px) rotateX(60deg);
+	}
+	50%{
+		transform: translateY(100px) rotateX(60deg);
+	}
+}
+span:nth-child(1){
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	animation-delay: 1.4s
+}
+span:nth-child(2){
+	top: 15px;
+	bottom: 15px;
+	left: 15px;
+	right: 15px;
+	animation-delay: 1.3s
+}
+span:nth-child(3){
+	top: 30px;
+	bottom: 30px;
+	left: 30px;
+	right: 30px;
+	animation-delay: 1.2s
+}
+span:nth-child(4){
+	top: 45px;
+	bottom: 45px;
+	left: 45px;
+	right: 45px;
+	animation-delay: 1.1s
+}
+span:nth-child(5){
+	top: 60px;
+	bottom: 60px;
+	left: 60px;
+	right: 60px;
+	animation-delay: 1s
+}
+span:nth-child(6){
+	top: 75px;
+	bottom: 75px;
+	left: 75px;
+	right: 75px;
+	animation-delay: .9s
+}
+span:nth-child(7){
+	top: 90px;
+	bottom: 90px;
+	left: 90px;
+	right: 90px;
+	animation-delay: .8s
+}
+span:nth-child(8){
+	top: 105px;
+	bottom: 105px;
+	left: 105px;
+	right: 105px;
+	animation-delay: .7s
+}
+span:nth-child(9){
+	top: 120px;
+	bottom: 120px;
+	left: 120px;
+	right: 120px;
+	animation-delay: .6s
+}
+span:nth-child(10){
+	top: 135px;
+	bottom: 135px;
+	left: 135px;
+	right: 135px;
+	animation-delay: .5s
+}
+span:nth-child(11){
+	top: 150px;
+	bottom: 150px;
+	left: 150px;
+	right: 150px;
+	animation-delay: .4s
+}
+span:nth-child(12){
+	top: 165px;
+	bottom: 165px;
+	left: 165px;
+	right: 165px;
+	animation-delay: .3s
+}
+span:nth-child(13){
+	top: 180px;
+	bottom: 180px;
+	left: 180px;
+	right: 180px;
+	animation-delay: .2s
+}
+span:nth-child(14){
+	top: 195px;
+	bottom: 195px;
+	left: 195px;
+	right: 195px;
+	animation-delay: .1s
+}
