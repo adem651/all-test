@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: #141414;
+	transition: .4s
+}
+.box{
+	width: 250px;
+	height: 100px;
+	background-color: #0000007d;
+	border-radius: 55px;
+	position: relative;
+}
+span{
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	top: 10px;
+	left: 10px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	background-color: #151515;
+	box-shadow: inset 0px 0px 4px #DDD;
+	transition: .4s ease-in-out
+}
+.box:active span{
+	right: 160px;
+}
