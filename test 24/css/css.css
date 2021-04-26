@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap");
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Josefin Sans;
+	color: #c4c4c4;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #d96d6d
+}
+.containt{
+	width: 250px;
+	height: 400px;
+	background-color: #eee;
+	border-radius: 35px;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 0 0 30px rgba(0,0,0,.2)
+}
+.containt header{
+	height: 50px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+.containt header > span{
+	position: absolute;
+	background: #cacaca;
+}
+.containt header > span:nth-child(1){
+	width: 82px;
+	height: 6px;
+	left: 30%;
+	border-radius: 36px;
+}
+.containt header > span:nth-child(2){
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	left: 66%;
+}
+/* End the header */
+
+.box-alarm{
+	position: relative;
+	width: 100%;
+	height: 350px;
+	padding: 10px;
+}
+.box-alarm > h3{
+	color: #c4c4c4;
+	font-size: 10px;
+	margin-left: 5%;
+}
+.first{
+	width: 100%;
+	height: 65px;
+	position: relative;
+	margin-top: 20px;
+	border-bottom: 1px solid #c4c4c4;
+}
+.first > h2{
+	color: #c4c4c4;
+	font-size: 12px;
+	margin-left: 5%;
+}
+.time{
+	height: 30%;
+	width: 100%;
+}
+.time h3{
+	font-size: 24px;
+	margin-left: 5%;
+}
+.day{
+	width: 100%;
+	height: 20%;
+	margin-left: 5%;
+	margin-top: 2%;
+}
+.day h2{
+	display: inline-block;
+	font-size: 10px;
+}
+.button{
+	position: absolute;
+	right: 0;
+	top: 30%;
+	width: 30px;
+	height: 30px;
+}
+.button span:nth-child(1){
+	background: #c4c4c4;
+	width: 30px;
+	height: 15px;
+	border-radius: 10px;
+	display: block;
+}
+.button span:nth-child(2){
+	background: #ddd;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	display: block;
+	position: absolute;
+	top: -9%;
+	left: -3%;
+	transition: .4s
+}
